@@ -8,16 +8,6 @@ while b < a:
     e = c + "*"
     f = b + 1
     while f < g:
-        print( a*d + f*e )
-        f = f + 2
-        a = a - 1
-
-
-
-
-
-
-
-      
-  
-
+        print(b*d + g*e)
+        b += 1
+        g -= 2
